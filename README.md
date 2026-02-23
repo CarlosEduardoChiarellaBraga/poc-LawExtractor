@@ -23,7 +23,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A quickproof-of-concept tool that parses Akoma Ntoso XML documents and converts their structural elements (articles, sections, paragraphs, etc.) into hierarchical JSON.
 
 ## Project setup
 
@@ -31,7 +31,7 @@
 $ npm install
 ```
 
-## Compile and run the project
+## How to use it 
 
 ```bash
 # development
@@ -44,7 +44,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## How to use it 
 Currently, I have uploaded the XML files manually.
 A TypeScript-based scraper is being implemented to fetch the XML files automatically, removing the need for manual uploads.
 ```
